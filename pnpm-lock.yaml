@@ -31,14 +31,14 @@ importers:
         specifier: ^7.0.3
         version: 7.0.3
       sass:
-        specifier: ^1.69.4
-        version: 1.69.4
+        specifier: 1.77.8
+        version: 1.77.8
       sass-loader:
         specifier: ^13.3.2
-        version: 13.3.2(sass@1.69.4)(webpack@5.95.0)
+        version: 13.3.2(sass@1.77.8)(webpack@5.95.0)
       vite:
         specifier: ^4.3.9
-        version: 4.3.9(@types/node@22.7.5)(sass@1.69.4)(terser@5.34.1)
+        version: 4.3.9(@types/node@22.7.5)(sass@1.77.8)(terser@5.34.1)
 
 packages:
 
@@ -1497,8 +1497,8 @@ packages:
       sass-embedded:
         optional: true
 
-  sass@1.69.4:
-    resolution: {integrity: sha512-+qEreVhqAy8o++aQfCJwp0sklr2xyEzkm9Pp/Igu9wNPoe7EZEQ8X/MBvvXggI2ql607cxKg/RKOwDj6pp2XDA==}
+  sass@1.77.8:
+    resolution: {integrity: sha512-4UHg6prsrycW20fqLGPShtEvo/WyHRVRHwOP4DzkUrObWoWI05QBSfzU71TVB7PFaL104TwNaHpjlWXAZbQiNQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -3214,14 +3214,14 @@ snapshots:
 
   safe-buffer@5.2.1: {}
 
-  sass-loader@13.3.2(sass@1.69.4)(webpack@5.95.0):
+  sass-loader@13.3.2(sass@1.77.8)(webpack@5.95.0):
     dependencies:
       neo-async: 2.6.2
       webpack: 5.95.0
     optionalDependencies:
-      sass: 1.69.4
+      sass: 1.77.8
 
-  sass@1.69.4:
+  sass@1.77.8:
     dependencies:
       chokidar: 3.5.3
       immutable: 4.3.4
@@ -3347,7 +3347,7 @@ snapshots:
 
   uuid@8.3.2: {}
 
-  vite@4.3.9(@types/node@22.7.5)(sass@1.69.4)(terser@5.34.1):
+  vite@4.3.9(@types/node@22.7.5)(sass@1.77.8)(terser@5.34.1):
     dependencies:
       esbuild: 0.17.19
       postcss: 8.4.24
@@ -3355,7 +3355,7 @@ snapshots:
     optionalDependencies:
       '@types/node': 22.7.5
       fsevents: 2.3.2
-      sass: 1.69.4
+      sass: 1.77.8
       terser: 5.34.1
 
   watchpack@2.4.2:

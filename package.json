@@ -1,6 +1,6 @@
 {
   "name": "@masonjs/theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ms admin theme plugin for vite",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,7 +25,7 @@
     "@babel/core": "8.0.0-alpha.4",
     "@babel/preset-env": "8.0.0-alpha.4",
     "cross-env": "^7.0.3",
-    "sass": "^1.69.4",
+    "sass": "1.77.8",
     "sass-loader": "^13.3.2",
     "vite": "^4.3.9"
   },
