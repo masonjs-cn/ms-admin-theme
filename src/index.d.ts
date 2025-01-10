@@ -40,6 +40,8 @@ interface Options {
     removeCssScopeName?: boolean;
     /** 自定义 `css` 文件名称的函数 */
     customThemeCssFileName?: Function;
+    /** 是否禁用 `legacy-js-api` 的警告 */
+    silenceDeprecations?: Array<string>;
   };
 }
 
